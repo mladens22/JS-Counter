@@ -1,0 +1,30 @@
+.main-div{
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  height: 58vw;
+  background: #171717;
+}
+
+#counter-display{
+  font-size: 10vw;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-group{
+  padding: 1.5vw;
+  margin: 2vw;
+  text-decoration: none;
+  color: #ffffff;
+  background: linear-gradient(135deg, orange 60%, cyan);
+  font-family: 'Roboto', sans-serif;
+}
+
+.whole-div{
+ position:absolute;
+ top:0px;
+ right:0px;
+ bottom:0px;
+ left:0px;
+}
